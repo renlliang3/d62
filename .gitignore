@@ -1,0 +1,7 @@
+*.bin
+jwst_output*
+misc_files*
+d62_models*
+blouin*
+.ipynb*
+*.h5

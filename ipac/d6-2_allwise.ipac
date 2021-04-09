@@ -1,0 +1,96 @@
+\ source_id_mf
+\ ___ Source id from Multiframe (coadd id and source number)
+\ ra (deg)
+\ ___ right ascension (J2000)
+\ dec (deg)
+\ ___ declination (J2000)
+\ clon
+\ ___ Right ascention in Sexagesimal format.
+\ clat
+\ ___ Declination in Sexagesimal format.
+\ nb
+\ ___ number of PSF components used in profile fit for source
+\ na
+\ ___ active deblend flag (=1 if actively deblended)
+\ cc_flags
+\ ___ contamination and confusion flags affecting the source in each band
+\ frame_id
+\ ___ frameset identifier
+\ mjd (day)
+\ ___ modified Julian date of the mid-point of the observation of the frame
+\ w1mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 1
+\ w1sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 1
+\ w1rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 1
+\ w2mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 2
+\ w2sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 2
+\ w2rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 2
+\ w3mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 3
+\ w3sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 3
+\ w3rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 3
+\ w4mpro_ep (mag)
+\ ___ Single-exposure profile-fit  magnitude, band 4
+\ w4sigmpro_ep (mag)
+\ ___ Single-exposure profile-fit photometric measurement uncertainty, band 4
+\ w4rchi2_ep
+\ ___ Reduced chi^2 of single-exposure profile-fit, band 4
+\ qi_fact
+\ ___ Frame image quality score
+\ saa_sep (deg)
+\ ___ SAA separation. Distance from frame center to SAA boundary
+\ moon_masked
+\ ___ flag (0/1) indicating whether frame is within the moon-mask area in each
+\ band
+\ dist (arcsec)
+\ ___ Distance between the target position and each source in arcsec.
+\ angle (deg)
+\ ___ Position Angle in degree.
+\fixlen='T'
+\RowsRetrieved=27
+\ORIGIN='IPAC Infrared Science Archive (IRSA), Caltech/JPL'
+\DATETIME='2020-09-07 03:13:33'
+\DataTag='ADS/IRSA.Gator#2020/0907/031333_9110'
+\DATABASE='AllWISE Multiepoch Photometry Table (allwise_p3as_mep)'
+\EQUINOX='J2000'
+\SKYAREA='within 2.0 arcsec of  ra=324.61249 dec=+25.37371 Eq J2000 '
+\StatusFile='/workspace/TMP_MDVlnt_9110/Gator/irsa/9110/log.9110.html'
+\SQL="'WHERE (no constraints)SELECT (25 column names follow in next row.)"
+|        source_id_mf|         ra|       dec|        clon|        clat|  nb|  na|cc_flags| frame_id|          mjd|w1mpro_ep|w1sigmpro_ep|w1rchi2_ep|w2mpro_ep|w2sigmpro_ep|w2rchi2_ep|w3mpro_ep|w3sigmpro_ep|w3rchi2_ep|w4mpro_ep|w4sigmpro_ep|w4rchi2_ep|qi_fact|saa_sep|moon_masked|    dist|     angle|
+|                char|     double|    double|        char|        char|long|long|    char|     char|       double|   double|      double|    double|   double|      double|    double|   double|      double|    double|   double|      double|    double| double|   long|       char|  double|    double|
+|                    |        deg|       deg|            |            |    |    |        |         |            d|      mag|         mag|          |      mag|         mag|          |      mag|         mag|          |      mag|         mag|          |       |    deg|           |  arcsec|       deg|
+|                null|       null|      null|        null|        null|null|null|    null|     null|         null|     null|        null|      null|     null|        null|      null|     null|        null|      null|     null|        null|      null|   null|   null|       null|    null|      null|
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 04961b095 55343.6732685    15.101        0.111      1.646    14.417        0.169      1.112    11.161         null      0.944     7.559         null      1.099     1.0      86        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 04973b095 55344.0701801    15.174        0.112       1.44    14.069        0.146      1.543    11.401         null      0.962     7.929         null      1.092     1.0      63        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 10430b211 55524.5508732    15.771        0.178      1.311    14.936        0.294      1.178      null         null       null      null         null       null     1.0      63        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 10434a211 55524.6831774    15.666        0.161      1.213    14.973        0.287      1.196      null         null       null      null         null       null     1.0      46        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 10454a212 55525.3445712    16.014        0.225      1.613    15.463        0.444      1.474      null         null       null      null         null       null     1.0     119        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 10461a187 55525.5428379    15.586        0.153      1.161    15.335        0.467      1.399      null         null       null      null         null       null     1.0      64        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 04984a070 55344.4008759    15.368        0.127      1.161    14.171        0.163      1.348    11.447        0.539      1.007     7.121         null      1.065     1.0      32        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 04988a070 55344.5331798    15.289        0.124      1.233    14.169        0.139      1.351    11.283         null       0.95     7.617         0.42      1.157     1.0      51        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 04957b095 55343.5409647    15.189        0.126      1.405    14.342        0.158      1.156    11.156         null      0.943     7.517         null      1.019     1.0      53        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 04996a070 55344.7977874    15.137        0.099      1.534    14.294        0.161      1.196    11.111         null      0.943     7.354         null      1.036     1.0     124        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 05205b088 55351.7435451    15.722        0.175      1.262    14.837        0.285      1.135    11.114         null      0.943     7.687         null       1.05     1.0     107        0011 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 10453a187 55525.2783554    15.854        0.193      1.405    14.898        0.282       1.16      null         null       null      null         null       null     1.0     124        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 10454a211 55525.3444438    15.469        0.145      1.129    14.923        0.291      1.172      null         null       null      null         null       null     1.0     119        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 04980a070 55344.2685722      15.1        0.101      1.647     14.63        0.246      1.081    11.417         null      0.969     7.397         null      1.027     1.0      36        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 04981b095 55344.3347877    15.233        0.115      1.317    14.388        0.164      1.127    11.202         null      0.944     7.854         null      1.058     1.0      31        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 04965b095 55343.8055723    15.192        0.107      1.397    13.918        0.132      1.985    11.422         null      0.965     7.874          0.5      1.086     1.0     127        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 04992a070 55344.6654836    15.377        0.119      1.155    14.301         0.15      1.189     11.01          0.4      1.156     7.771         null      1.023     1.0      84        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 10445a187 55525.0138743    15.804        0.186      1.347    15.075        0.317      1.249      null         null       null      null         null       null     1.0      52        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 10450b211 55525.2122669     15.68        0.187      1.225    15.071        0.315      1.247      null         null       null      null         null       null     1.0     104        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 04976a070 55344.1362683    15.264        0.116      1.268    14.482        0.204       1.09    11.161         null      0.943     7.589         null      1.018     1.0      54        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 04977b095 55344.2024839    15.685        0.171      1.229     14.14        0.148      1.401    11.377         null      0.974     7.316         null      1.018     1.0      46        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 04969b095 55343.9378762    15.187        0.111       1.41     14.66        0.215      1.085    10.809         null      0.949     7.775         null       1.12     1.0      97        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 04972a070 55344.0039645    15.175        0.107      1.436      14.5         0.19      1.086    10.996         null      0.949     7.782         null      1.023     1.0      79        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 10438a211 55524.8154816    16.033        0.236      1.639    14.986        0.295      1.202      null         null       null      null         null       null     1.0      31        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 10442a211 55524.9476585    15.754        0.204      1.293    15.317        0.394      1.388      null         null       null      null         null       null     1.0      39        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 10461a188 55525.5429652    15.775        0.186      1.316    14.708        0.239      1.094      null         null       null      null         null       null     1.0      65        0000 1.084919 213.398296 
+ 3250p257_ac51-015621 324.6123064 25.3734584 21h38m26.95s 25d22m24.45s    1    0     0000 10465a187 55525.6751422    16.214        0.279      1.896    14.687        0.234      1.089      null         null       null      null         null       null     1.0      47        0000 1.084919 213.398296 
